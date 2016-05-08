@@ -1,0 +1,43 @@
+@charset "UTF-8;
+.navbar
+{
+	background-color: gainsboro;
+	color: black;
+	margin-top: 2%;
+	text-shadow: 2px 2px 6px gray;
+}
+.jumbotron
+{
+	background-image: url(../images/jumbotron_background.png);
+	color: white;
+	margin: top: 10px;
+	text-shadow: 5px 5px 5px black;
+}
+.carousel
+{
+	height: 40%;
+	margin-bottom: 60px;
+	margin-left: 20%;
+	width: 60%;
+}
+.carousel-caption
+{
+	z-index: 10;
+}
+.carousel .item
+{
+	background-color: #777;
+	height: 500px;
+}
+.carousel-inner > .item > img
+{
+	height: 100%;
+	left: 0;
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+}
+footer
+{
+	text-align: center;
+}
